@@ -24,6 +24,9 @@ interface InputProps {
 const inputProps = defineProps<InputProps>();
 </script>
 <style lang="sass">
+.field
+  position: relative
+
   .form-control
     background: transparent
     border-radius: 4px
