@@ -64,7 +64,7 @@
   <div class="feedback" v-else>
     <h2 class="mb-3">Спасибо за ваш вопрос</h2>
     <p>Мы обязательно откликнемся на ваш вопрос в ближайшее время</p>
-    <h4>Список</h4>
+    <h4 class="mt-5">Список</h4>
     <ul class="list-group" v-if="list.length > 0">
       <li class="list-group-item" v-for="item in list">
         {{ item.name }} / {{ item.email }}
