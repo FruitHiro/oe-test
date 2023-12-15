@@ -6,3 +6,13 @@ export type formData = {
     selected: string;
     question: string;
 };
+
+export type responseData = {
+    feedbackId: number;
+    list: list[]
+};
+
+export type list = {
+    name: string;
+    email: string
+}
