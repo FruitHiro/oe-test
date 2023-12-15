@@ -104,15 +104,21 @@ const formData = ref({
       border-color: #1D76F9
       box-shadow: none
 
+  .form-control
+    border-radius: 4px
+    font-size: 14px
+    line-height: 16px
+    padding: 8px 12px 8px 16px
+
   textarea
     min-height: 110px
 
     &::placeholder
       color: #A6A6A6
 
-    &.form-control:focus,
-    &.form-control:not(:placeholder-shown)
-      padding: 8px 12px 8px 16px
+    &:focus,
+    &:not(:placeholder-shown)
+      box-shadow: none
 
   .file
     border: 1px #1D76F9 dashed
