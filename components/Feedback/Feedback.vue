@@ -60,9 +60,6 @@
         <button class="btn btn-primary" type="button" @click="getData(formData)">Отправить</button>
       </div>
     </form>
-    <div>
-      {{ data }}
-    </div>
   </div>
 </template>
 <script setup lang="ts">
